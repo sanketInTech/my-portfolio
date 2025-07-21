@@ -42,7 +42,8 @@ This portfolio is designed to present my work, technical skills, and writing in 
    ```sh
    npm run build
    ```
-
+## live link 
+   **link:** [https://my-portfolioweb1.netlify.app/](https://my-portfolioweb1.netlify.app/)
 ## Contact
 - **Email:** sanketdesai1971@gmail.com
 - **LinkedIn:** [linkedin.com/in/sanket-desai-](https://www.linkedin.com/in/sanket-desai-/)
