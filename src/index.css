@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --color-bg: #fff;
+  --color-text: #18181a;
+  --color-accent: #4b32c3; /* Indigo */
+  --color-accent-light: #6d5dd3;
+  --color-accent-dark: #2d186b;
+  --color-gray: #f5f5f7;
+  --color-footer: #222226;
+  --font-body: 'Inter', Helvetica, Arial, sans-serif;
+  --font-heading: Georgia, 'Times New Roman', Times, serif;
+}
+
+[data-theme='dark'] {
+  --color-bg: #18181a;
+  --color-text: #f5f5f7;
+  --color-accent: #6d5dd3;
+  --color-accent-light: #a89ee6;
+  --color-accent-dark: #2d186b;
+  --color-gray: #23232b;
+  --color-footer: #18181a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-top: 0;
+  color: var(--color-text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--color-accent-light);
+  color: #fff;
+} 
